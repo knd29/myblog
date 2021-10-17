@@ -196,3 +196,23 @@ p.copyright {
   font-size: 0.75rem;
   margin: 40px auto 10px;
 }
+
+@media screen and (max-width: 750px) {
+
+  #pickup,
+  .container,
+  #footer .flex {
+    flex-direction: column;
+  }
+
+  #pickup article,
+  main,
+  aside,
+  #footer .item {
+    width: 100%;
+  }
+
+  #pickup article {
+    margin-bottom: 50px;
+  }
+}
